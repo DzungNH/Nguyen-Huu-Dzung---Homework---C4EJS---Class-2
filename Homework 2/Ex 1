@@ -1,0 +1,9 @@
+Ex 1:
+1.1: Var and const in JavaScript use for variable declaration.
+1.2: - Var: variable that is declared with var outside a function block is available for use in the whole window.
+     - let: variable declared in a block with the let is only available for use within that block.
+1.3: -const: cannot be updated or re-declared.
+     -let: can be updated or re-declared.
+1.4: -const: know the variable is not going to change. 
+     -let: the variable need to change ( like in a for loop).
+
