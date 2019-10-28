@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Time Sheet</title>
+    <style>
+    td{
+        text-align: center;
+    }
+    table{
+        border: 1px solid;
+    }
+    thead{
+        font-weight: bold;
+    }
+    input{
+        margin-bottom: 40px;
+    }
+    </style>
+
+</head>     
+<body>
+    <div class="input">
+        <input type="text" placeholder="Enter project" id="project">
+        <input type="text" placeholder="Enter task" id="task">
+        <input type="number" placeholder="Time spent" id="timespent">
+        <button id = "add">Add</button>
+        <button id = "clear">Clear</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <td>Project</td>
+                <td>Task</td>
+                <td>Time Spent</td>
+                <td colspan="2">Actions</td>
+            </tr>
+        </thead>
+        <tbody id="content">
+        </tbody>
+    </table>
+    <script src="timesheet.js"></script>
+</body>
+</html>
